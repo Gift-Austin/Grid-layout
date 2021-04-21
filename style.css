@@ -69,3 +69,43 @@ html {
     grid-row-end: 3;
     height: 22rem;
 }
+
+.nav {
+    background-color: #06212D;
+    padding: 1rem 0 1rem 10rem;
+}
+.brand-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 8rem;
+}
+
+.box-item {
+    background-color: #D2EDF9;
+    height: 11rem;
+    
+}
+
+.side {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 24rem;
+}
+
+.bottom {
+    background-color: #F2F2F2;
+}
+
+
+.footer {
+    background-color: #06212D;
+    height: 5.7rem;
+}
