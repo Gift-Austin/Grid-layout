@@ -1,0 +1,16 @@
+@media only screen and (max-width: 75em) {
+    .heading h1 {
+        font-size: 3rem;
+    }
+    .links ul li a {
+        margin-left: 1rem;
+    }
+
+    .group {
+        display: inline;
+    }
+
+    .links ul {
+        display: inline-block;
+    }
+}
