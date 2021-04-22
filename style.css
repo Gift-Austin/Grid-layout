@@ -109,3 +109,79 @@ html {
     background-color: #06212D;
     height: 5.7rem;
 }
+
+.shapes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 8rem;
+}
+
+.shape {
+    background-color: #D2EDF9;
+    
+}
+
+.a {
+    height: 25rem;
+}
+
+.b {
+    height: 13rem;
+}
+
+.c {
+    height: 18.5rem;
+    
+}
+
+.d {
+    height: 12rem;
+}
+
+.e {
+    height: 24rem;
+    margin-top: -12rem;
+}
+
+.f {
+    height: 18.5rem;
+    margin-top: -6.5rem;
+}
+
+.heading h1 {
+    text-decoration: dashed;
+    margin: 5rem 0 2rem 8rem;
+
+}
+.heading {
+    border-bottom: .3rem dashed #000;
+}
+
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 7rem;
+    
+    
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #000;
+    
+
+    
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+.group {
+    padding: 8rem;
+}
